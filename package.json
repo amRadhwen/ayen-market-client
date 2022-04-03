@@ -82,7 +82,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "client-install": "npm install",
-    "heroku_postbuild": "NPM_CONFIG_PRODUCTION=false npm install --only=dev && NODE_ENV=development npm install --no-shrinkwrap && npm run build",
+    "heroku_postbuild": "NPM_CONFIG_PRODUCTION=false npm install --only=dev && NODE_ENV=development npm install --no-shrinkwrap && npm run build"
   },
   "browserslist": [
     ">0.2%",
